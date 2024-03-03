@@ -1,0 +1,437 @@
+
+
+.features-card:hover {
+    box-shadow: 1px 10px 20px -1px rgba(173, 181, 183, 0.67);
+    transition: .5s ease;
+}
+
+.blog-card {
+    box-shadow: 1px 10px 20px -1px rgba(200, 203, 203, 0.67);
+    transition: .5s ease;
+}
+
+.leader-card {
+    box-shadow: 1px 10px 20px -1px rgba(200, 203, 203, 0.67);
+    transition: .5s ease;
+}
+
+.home3-pricing-plans-middle-card {
+    box-shadow: 0px 5px 15px -5px #404072;
+    transition: .5s ease;
+}
+
+.home3-contact-us-card {
+    box-shadow: 1px 10px 20px -1px rgba(200, 203, 203, 0.67);
+    transition: .5s ease;
+}
+
+.accordion-card {
+    box-shadow: 1px 10px 20px -1px rgba(200, 203, 203, 0.67);
+    transition: .5s ease;
+}
+
+.love_us_card {
+    box-shadow: 1px 10px 20px -1px rgba(173, 181, 183, 0.67);
+    transition: .5s ease;
+}
+
+.home4-middle-subscription-card {
+    box-shadow: 1px 10px 20px -1px rgba(173, 181, 183, 0.67);
+    transition: .5s ease;
+}
+
+.mini-card {
+    box-shadow: 1px 10px 20px -1px rgba(173, 181, 183, 0.67);
+    transition: .5s ease;
+}
+
+.white-image {
+    display: none;
+}
+
+.mini-card:hover {
+    box-shadow: none;
+}
+
+.mini-card:hover .white-image {
+    display: block;
+}
+
+.mini-card:hover .black-image {
+    display: none;
+}
+
+.mini-card:hover h5 {
+    color: white;
+}
+
+.mini-card:hover p {
+    color: white;
+}
+
+#home-4-contact-terms input[type=checkbox] {
+    appearance: none;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0;
+}
+
+#home-4-contact-terms input[type=checkbox]:checked {
+    background-color: white;
+}
+
+#home-4-contact-terms input[type=checkbox]:checked::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 4px;
+    top: 5px;
+    left: 3px;
+    border-left: 2.5px solid #2C2003;
+    border-bottom: 2.5px solid #2C2003;
+    transform: rotate(-45deg);
+
+}
+
+.contact-variation {
+    display: none;
+}
+
+.contact-variation-container:hover .contact-variation {
+    display: block;
+}
+
+.home3-pricing-plans-cards-background {
+    background-image: linear-gradient(#FFFFFF 0%,
+            #FFFFFF 20%,
+            #FFFFFF 20%,
+            #FFFFFF 38%,
+            #2E2E52 38%,
+            #2E2E52 60%,
+            #2E2E52 80%,
+            #2E2E52 80%,
+            #2E2E52 100%);
+    background-size: cover;
+}
+
+/* Carousel */
+
+.mySlides {
+    display: none
+}
+
+.mySlides2 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: #FF6AC2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: -22px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: -22px;
+    border-radius: 50%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover,
+.next:hover {
+    background-color: red;
+} */
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 4px;
+    margin: 0 px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#dot-home1 .dot {
+    background-color: #C6ADF1;
+    width: 9px;
+    transition: background-color 0.6s ease;
+    transition: width 0.6s ease;
+}
+
+#dot-home2 .dot {
+    background-color: #84661E;
+    width: 9px;
+    transition: background-color 0.6s ease;
+    transition: width 0.6s ease;
+}
+
+#dot-home1 .active,
+.dot-:hover {
+    background-color: #6A26DA;
+    width: 15px;
+}
+
+#dot-home2 .active,
+.dot:hover {
+    background-color: #2C2003;
+    width: 15px;
+}
+
+
+
+
+/* Background Images */
+.home1-banner {
+    background-image: url('../images/home1-banner.svg');
+    background-size: cover;
+}
+
+.profile {
+    background-image: url('../images/profile.jpg');
+    background-size: cover;
+}
+
+.profile2 {
+    background-image: url('../images/man.jpg');
+    background-size: cover;
+}
+
+.profile3 {
+    background-image: url('../images/profile2.jpg');
+    background-size: cover;
+}
+
+.home2-banner {
+    background-image: url('../images/home2bg.png');
+}
+
+.home2-frame {
+    background-image: url('../images/Frame23.svg');
+}
+
+.home2-about-bg {
+    background-image: url('../images/home2-about-get-started.png');
+}
+
+.home2-sign-bg {
+    background-image: url('../images/sign-in-banner-home2.png');
+}
+
+.home2-blog-bg {
+    background-image: url('../images/blog-description-bg-home2.png');
+}
+
+.home3-banner {
+    background-image: url('../images/Rectangle35.svg');
+}
+
+.home3-banner2 {
+    background-image: url('../images/home3-banner.png');
+}
+
+.home3-blog {
+    background-image: url('../images/blog-details-cover-home3.png');
+}
+
+.home3-gallery {
+    background-image: url('../images/gallery-banner-home3.png');
+}
+
+.home4-banner {
+    background-image: url('../images/Home4_banner.png');
+}
+
+.home4-banner2 {
+    background-image: url('../images/Banner-of-home4.png');
+}
+
+.home4-testimonials {
+    background-image: url('../images/testimonials1.svg');
+}
+
+.home4-about {
+    background-image: url('../images/home4-aboutus-last-section.png');
+}
+
+.home4-blog {
+    background-image: url('../images//home4-blog.png');
+}
+
+.home4-faq-bg {
+    background-image: url('../images/home4-faq-bg.png');
+}
+
+.home5_banner_bg {
+    background-image: url('../images/Home5_banner_bg.png');
+}
+
+.home5_choose_us_bg {
+    background-image: url('../images/choose_us_bg.png');
+    background-repeat: no-repeat;
+}
+
+.home5_our_services_bg {
+    background-image: url('../images/our_services.png');
+}
+.home5_case_studies_bg {
+    background-image: url('../images/Home5_Case_studies.png');
+}
+
+.home5_footer_bg{
+    background-image: url('../images/Home5_Footer.png');
+}
+.home5_banner_bg_2{
+    background-image: url('../images/home5_banner_bg2.png');
+}
+.home5_contact_bg{
+    background-image: url('../images/contact_map.png');
+}
+
+/* End Banner */
+
+
+.blur-bg {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.2;
+    position: absolute;
+    /* top: -80px; */
+}
+
+.home4-signup-container {
+    padding: 31px 24px 26px 24px;
+    box-shadow: -2px 21px 15px -8px rgba(0, 0, 0, 0.28);
+}
+
+#home4-ready-input::placeholder {
+    color: white;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+/* End Carousel */
+
+
+/* .home3-banner {
+    background-image: url('../images/test.svg');
+    background-size: cover;
+    background-position: top center;
+    height: 970px;
+
+} */
+
+.home4-footer {
+    background-image: url('../images/footer-bg.svg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.home4-hero-section {
+    background-image: url('../images/banner-bg.svg');
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+@media only screen and (max-width: 1023px) {
+    .home3-banner {
+        height: 670px;
+    }
+
+    .home3-pricing-plans-card {
+        box-shadow: 0px 5px 15px -5px #404072;
+        transition: .5s ease;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home3-banner {
+        height: 470px;
+    }
+
+}

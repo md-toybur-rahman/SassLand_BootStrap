@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>align-justify</title>
+	<defs>
+		<image  width="20" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOAgMAAABSqtRjAAAAAXNSR0IB2cksfwAAAAlQTFRF////////AAAAjvTD7AAAAAN0Uk5T3/8A74dLoQAAABdJREFUeJxjEA0NDQ1hgJCrQABKUiAOABnnHy3l0RZEAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="5"/>
+</svg>

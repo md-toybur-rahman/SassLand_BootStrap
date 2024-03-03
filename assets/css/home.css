@@ -1,0 +1,470 @@
+.banner_container {
+	padding-top: 51px;
+	padding-bottom: 69px;
+	margin-left: 150px;
+}
+
+.banner_content {
+	max-width: 590px;
+}
+
+.banner_title {
+	font-size: 57px;
+	margin-bottom: 24px;
+}
+
+.hilight_banner_text {
+	color: #FCB900;
+}
+
+.banner_description {
+	font-size: 24px;
+	color: #E9EBEB;
+	margin-bottom: 48px;
+	max-width: 558px;
+}
+
+.banner_button_container {}
+
+.banner_get_started_button {
+	color: #25373F;
+	max-width: 236px;
+	padding: 18px 0;
+	font-size: 16px;
+}
+
+.banner_learn_more_button {
+	border: 1px solid #A67DE9;
+	max-width: 236px;
+	padding: 18px 0;
+	font-size: 16px;
+
+}
+
+.main_content {
+	max-width: 1142px;
+	overflow: visible;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+.trust_company_text {
+	font-size: 16px;
+	margin-bottom: 40px;
+	color: #262729;
+}
+
+.trusted_company_logo_container {
+	gap: 56px;
+}
+
+.easy_to_use_container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 97px;
+	max-width: 1140px;
+	margin: 0 auto;
+	margin-top: 120px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.easy_to_use_content {
+	max-width: 485px;
+}
+
+.easy_to_use_title {
+	font-size: 36px;
+	color: #262729;
+	margin-bottom: 24px;
+}
+
+.easy_to_use_description {
+	font-size: 20px;
+	color: #676769;
+	margin-bottom: 48px;
+}
+
+.easy_to_use_button {
+	background-color: #6A26DA;
+	padding: 13px 27px;
+	font-size: 12px;
+	border: none;
+}
+
+.best_features_container {
+	margin-top: 156px;
+	max-width: 1176;
+	overflow: hidden;
+}
+.best_features_title_container{
+	max-width: 648px;
+	margin: 0 auto;
+	margin-bottom: 48px;
+}
+.best_features_title{
+	font-size: 36px;
+	color: #25373F;
+	margin-bottom: 24px;
+}
+.best_features_sub_title{
+	font-size: 20px;
+	color: #676769;
+}
+.best_features_card_container{
+	gap: 22px;
+}
+.best_features_card{
+	padding: 24px;
+	border: 1px solid #E4E7E7;
+	border-radius: 8px;
+	max-width: 366px;
+}
+.best_features_card_image{
+	height: 197px;
+	border: none;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.best_features_card_title{
+	font-size: 14px;
+	margin-bottom: 8px;
+	margin-top: 16px;
+	color: #6A26DA;
+}
+.best_features_card_sub_title{
+	font-size: 16px;
+	color: #25373F;
+}
+
+.love_us_container{
+	gap: 40px;
+	margin-top: 156px;
+	max-width: 1057px;
+	margin-left: 56px;
+}
+
+.lvoe_us_title_container{
+	max-width: 547px;
+}
+
+.love_us_title{
+	font-size: 36px;
+	color: #262729;
+	margin-bottom: 16px;
+}
+.love_us_sub_title{
+	font-size: 20px;
+	color: #676769;
+}
+.love_us_card{
+	max-width: 382px;
+	padding: 24px;
+	border: none;
+	border-radius: 16px;
+	gap: 17px;
+}
+
+.love_us_card_image{
+	min-width: 72px;
+	height: 72px;
+	border: none;
+	border-radius: 50%;
+}
+.love_us_card_content{
+	max-width: 245px;
+}
+.user_comments{
+	color: #676769;
+	font-size: 14px;
+	padding: 8px 0;
+}
+.user_details{
+	color: #879295;
+	font-size: 11px;
+}
+.pricing_plan_container{
+	background-color: #162126;
+	margin-top: 114px;
+	padding-bottom: 86px;
+}
+.pricing_plan_title_container{
+	padding-top: 86px;
+	margin-bottom: 56px;
+	text-align: center;
+}
+.pricing_plan_title{
+	font-size: 36px;
+	margin-bottom: 24px;
+}
+.pricing_plan_sub_title{
+	font-size: 20px;
+	color: #E9EBEB;
+}
+.pricing_card{
+	padding: 37px 42px 71px 42px;
+	background-color: white;
+	border: none;
+	border-radius: 16px;
+	max-width: 363px;
+}
+.pricing_category{
+	color: #6A26DA;
+	font-size: 16px;
+	margin-bottom: 42px;
+}
+.pricing_line{
+	font-size: 36px;
+	margin-bottom: 16px;
+	letter-spacing: 1px;
+}
+.pricing_expire{
+	font-size: 16px;
+}
+.free_expire_time{
+	color: #676769;
+	font-size: 14px;
+	margin-bottom: 42px;
+}
+.package_service_container{
+	flex-direction: column;
+	padding: 0;
+}
+.package_service{
+	font-size: 14px;
+	color: #3D3D3D;
+}
+.pricing_button_container{
+	margin-top: 42px;
+}
+
+.pricing_button{
+	padding: 17px 50px;
+	border: none;
+	border-radius: 6px;
+	background-color: #6A26DA;
+	color: white;
+	font-size: 16px;
+}
+.pricing_require{
+	font-size: 14px;
+	color: #828282;
+	margin-top: 11px;
+	text-align: center;
+}
+.faq_container{
+	padding-top: 56px;
+	padding-bottom: 63px;
+	background-color: #F8F8F8; 
+	margin-bottom: 59px;
+}
+.faq_content{
+	max-width: 1137px;
+	margin: 0 auto;
+}
+.faq_main_content_container{
+	column-gap: 16px;
+	row-gap: 84px;
+}
+
+/* xl */
+@media only screen and (max-width: 1200px) {
+	.banner_container {
+		margin-left: 70px;
+	}
+
+	.main_content {
+		padding: 0 20px;
+	}
+	.best_features_container{
+		padding: 0 20px;
+	}
+	.love_us_container{
+		padding: 0 20px;
+	}
+}
+
+/* lg */
+@media only screen and (max-width: 992px) {
+	.banner_content {
+		max-width: auto;
+	}
+
+	.banner_title {
+		font-size: 36px;
+	}
+
+	.banner_description {
+		max-width: auto;
+	}
+
+	.banner_image {
+		margin-top: 40px;
+	}
+
+	.easy_to_use_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.easy_to_use_content {
+		max-width: auto;
+	}
+	.love_us_container{
+		margin-left: 0;
+	}
+	.lvoe_us_title_container{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.carousel_container{
+		margin:  0 auto;
+	}
+	.pricing_plan_container{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.faq_container{
+		padding: 0 20px;
+	}
+}
+
+/* md */
+@media only screen and (max-width: 768px) {
+	.banner_container {
+		margin-left: 24px;
+	}
+
+	.banner_title {
+		text-align: center;
+	}
+
+	.banner_description {
+		text-align: center;
+	}
+
+	.banner_get_started_button {
+		padding: 16px 0;
+		font-size: 14px;
+	}
+
+	.banner_learn_more_button {
+		padding: 16px 0;
+		font-size: 14px;
+	}
+
+	.main_content {
+		overflow: hidden;
+	}
+
+	.trust_company_text {
+		font-size: 14px;
+	}
+
+	.trusted_company_logo_container {
+		gap: 30px;
+	}
+
+	.trusted_company_logo {
+		width: 50px;
+	}
+
+	.easy_to_use_container {
+		margin-top: 60px;
+	}
+
+	.easy_to_use_content {
+		text-align: center;
+	}
+
+	.easy_to_use_title {
+		font-size: 24px;
+	}
+
+	.easy_to_use_description {
+		font-size: 16px;
+	}
+
+	.best_features_container {
+		margin-top: 80px;
+	}
+	.best_features_title{
+		font-size: 24px;
+	}
+	.best_features_sub_title{
+		font-size: 16px;
+	}
+	.best_features_card{
+		padding: 16px;
+	}
+	.best_features_card_title{
+		font-size: 12px;
+	}
+	.best_features_card_sub_title{
+		font-size: 14px;
+	}
+	.love_us_container{
+		margin-top: 80px;
+		gap: 24px;
+	}
+	.love_us_title{
+		font-size: 24px;
+	}
+	.love_us_sub_title{
+		font-size: 16px;
+	}
+	.love_us_card_image{
+		max-width: 50px;
+		height: 50px;
+	}
+	.ratting_star{
+		width: 16px;
+	}
+	.user_comments{
+		font-size: 12px;
+	}
+	.pricing_plan_title{
+		font-size: 24px;
+	}
+	.pricing_plan_sub_title{
+		font-size: 16px;
+	}
+	.pricing_card{
+		padding: 20px 30px 50px 30px;
+	}
+	.pricing_category{
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	.pricing_line{
+		font-size: 24px;
+	}
+	.pricing_expire{
+		font-size: 14px;
+	}
+	.free_expire_time{
+		font-size: 12px;
+	}
+	.package_service{
+		font: 12px;
+	}
+	.pricing_button{
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+	.pricing_require{
+		font-size: 12px;
+	}
+}
+
+/* sm */
+@media only screen and (max-width: 640px) {
+	.banner_title {
+		font-size: 24px;
+	}
+}
+
+/* xs */
+@media only screen and (max-width: 576px) {}

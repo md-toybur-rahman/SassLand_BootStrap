@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>mail</title>
+	<defs>
+		<image  width="20" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQBAMAAADkNkIoAAAAAXNSR0IB2cksfwAAADBQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWj8cCwAAABB0Uk5TX+//358gAL9wb2BAEJCPoPjXZjgAAABaSURBVHicY2BUggIDBiMYU5FByTUNDMKVGJQU20CsTCEgc7FyWFpadpE1kJlzSe9YziPdY0BmWqqR1Wb1bWkgZlqGEEg9mJkWX5oGY4IBaUwhmHOUGRbDmFIAB0UvItDFkkcAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="4"/>
+</svg>

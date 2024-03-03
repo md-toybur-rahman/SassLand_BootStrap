@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>call</title>
+	<defs>
+		<image  width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAAXNSR0IB2cksfwAAAHJQTFRFHRsfHBsfAAAAGxUgHBsfIRkhGxkeGxsdHBsfHBwcHhsgHBseHBoeHR0eHBoeHBwgHBsfHBogGRkgHR0gHBogICAgGRkdGxsgGBggGxsfEBAgGxofHhwgHRseGxUbHBwfHBweGxsgHBgcIBggHBwgHR0gHpXuSQAAACZ0Uk5T3/8AMO8foGDPQHCQgI+wQL9/UGCAEFBwIM8Q32+PMK+AYEAggFB40bt+AAAAjElEQVR4nF3QWxLCIAwF0NyIolKVqrVo1NbX/rdoSh0nJV/hDIHJJYIWsakswMySw5wX8JaWWPEawVJAxRtsLe0Qa2BviZ2+fpj8yMdClBqHU0HcwqWCOOJ8KaiRn13jzd8zcRKQztZ5NxoXHsyrhLb7Z5C64UKvnYnlIXqoni+bVHrLGNQkvE+IDvIFgtcGqn7km4IAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="3" y="3"/>
+</svg>
